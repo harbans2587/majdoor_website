@@ -10,11 +10,17 @@
     "lint": "next lint",
     "type-check": "tsc --noEmit"
   },
-  "keywords": ["workers", "jobs", "employment", "marketplace"],
+  "keywords": [
+    "workers",
+    "jobs",
+    "employment",
+    "marketplace"
+  ],
   "author": "Majdoor Team",
   "license": "MIT",
   "dependencies": {
     "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/postcss": "^4.1.11",
     "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^24.0.6",
     "@types/react": "^19.1.8",
