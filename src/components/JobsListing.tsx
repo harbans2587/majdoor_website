@@ -68,7 +68,12 @@ function JobCard({ job }: { job: any }) {
       <div className="flex items-start justify-between">
         <div className="flex-1">
           <h3 className="text-lg font-semibold text-gray-900 mb-2">
-            {job.title}
+            <a 
+              href={`/jobs/${job._id}`}
+              className="hover:text-primary-600 transition-colors"
+            >
+              {job.title}
+            </a>
           </h3>
           <div className="flex items-center space-x-4 text-sm text-gray-600 mb-3">
             <span>{job.jobType}</span>
@@ -108,9 +113,12 @@ function JobCard({ job }: { job: any }) {
             {job.budget.max && job.budget.max !== job.budget.min && `-$${job.budget.max}`}
             {job.budget.type === 'hourly' ? '/hr' : ''}
           </div>
-          <button className="btn-primary text-sm">
-            Apply Now
-          </button>
+          <a
+            href={`/jobs/${job._id}`}
+            className="btn-primary text-sm"
+          >
+            View Details
+          </a>
         </div>
       </div>
     </div>
