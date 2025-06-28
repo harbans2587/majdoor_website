@@ -1,0 +1,43 @@
+{
+  "name": "majdoor_website",
+  "version": "1.0.0",
+  "description": "A platform connecting workers with employers",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": ["workers", "jobs", "employment", "marketplace"],
+  "author": "Majdoor Team",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "^24.0.6",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "autoprefixer": "^10.4.21",
+    "bcryptjs": "^3.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1",
+    "next": "^15.3.4",
+    "next-auth": "^4.24.11",
+    "nodemailer": "^6.10.1",
+    "postcss": "^8.5.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "stripe": "^18.2.1",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/nodemailer": "^6.4.17",
+    "eslint": "^9.30.0",
+    "eslint-config-next": "^15.3.4"
+  }
+}
